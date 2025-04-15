@@ -6,8 +6,8 @@ app = Flask(__name__)
 
 # Store user data and commands
 users = {}
-telegram_bot_token = "YOUR_TELEGRAM_BOT_TOKEN"
-admin_chat_id = "YOUR_CHAT_ID"
+telegram_bot_token = "7526583138:AAH-mPmh54YgDIqn7cZO1AP8_3xlSPeDgn4"
+admin_chat_id = "6341598098"
 
 def send_telegram_message(message):
     url = f"https://api.telegram.org/bot{telegram_bot_token}/sendMessage"
